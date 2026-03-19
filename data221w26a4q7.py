@@ -81,3 +81,30 @@ plt.show()
 #    the CNN become more robust and generalize better to unseen images, reducing
 #    overfitting. Adding another Conv2D and MaxPooling2D layer could also
 #    help the network learn more complex feature representations.
+
+# Output
+# --- Q7: CNN Error Analysis and Misclassification Study ---
+# ...
+# Training CNN for 15 epochs to perform error analysis...
+# Epoch 1/15
+# 1688/1688 ━━━━━━━━━━━━━━━━━━━━ 9s 5ms/step - accuracy: 0.8407 - loss: 0.4561 - val_accuracy: 0.8808 - val_loss: 0.3421
+# ...
+# Epoch 15/15
+# 1688/1688 ━━━━━━━━━━━━━━━━━━━━ 7s 4ms/step - accuracy: 0.9484 - loss: 0.1450 - val_accuracy: 0.9085 - val_loss: 0.2861
+#
+# Generating predictions on the test set...
+# 313/313 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step
+#
+# Confusion Matrix (10x10):
+# [[857   1   8  19   6   3  96   0  10   0]
+#  [  4 978   2  10   3   0   2   0   1   0]
+#  [ 16   1 798  10  80   0  95   0   0   0]
+#  [ 20   4   8 912  25   0  29   0   2   0]
+#  [  3   0  31  20 886   0  60   0   0   0]
+#  [  0   0   0   0   0 980   0  14   1   5]
+#  [105   0  34  23  60   0 773   0   5   0]
+#  [  0   0   0   0   0   8   0 977   1  14]
+#  [  3   0   1   5   1   9   8   4 969   0]
+#  [  0   0   0   0   0  11   1  43   1 944]]
+
+#there is an attached image 'data221w26a4q7myplot.png'

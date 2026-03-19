@@ -56,3 +56,15 @@ for i in top_5_indices:
 #    make its splits[cite: 64]. Instead of treating the model like a "black box", this allows
 #    data scientists and medical professionals to understand the logic behind the predictions
 #    and verify that the model is making decisions based on medically relevant features.
+
+# Output:
+# --- Q3: Constrained Decision Tree & Interpretability ---
+# Constrained Training Accuracy: 0.9670
+# Constrained Test Accuracy: 0.9474
+#
+# Top 5 Most Important Features:
+# - worst radius: 0.6704
+# - worst concave points: 0.1700
+# - texture error: 0.0627
+# - worst concavity: 0.0423
+# - mean texture: 0.0304

@@ -43,3 +43,8 @@ print(f"Test Accuracy: {test_acc:.4f}")
 #    continues to grow deeper until every leaf perfectly classifies the training
 #    samples. It essentially memorizes the training data, including its noise,
 #    which results in a lower test accuracy and poor generalization to unseen data.
+
+# Output:
+# --- Q2: Decision Tree Model Using Entropy ---
+# Training Accuracy: 1.0000
+# Test Accuracy: 0.9123

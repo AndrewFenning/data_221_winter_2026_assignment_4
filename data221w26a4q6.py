@@ -55,3 +55,15 @@ print(f"\nCNN Test Accuracy: {test_acc:.4f}")
 #    Conv2D layer are learning low-level visual features like straight edges, curves,
 #    and basic textures that are essential for distinguishing between different
 #    types of clothing (like the heel of a boot or the strap of a bag).
+
+# Output:
+# --- Q6: Convolutional Neural Network ---
+...
+# Training CNN for 15 epochs (this may take a minute or two)...
+# Epoch 1/15
+# 1688/1688 ━━━━━━━━━━━━━━━━━━━━ 8s 4ms/step - accuracy: 0.8419 - loss: 0.4551 - val_accuracy: 0.8785 - val_loss: 0.3467
+# ...
+# Epoch 15/15
+# 1688/1688 ━━━━━━━━━━━━━━━━━━━━ 8s 5ms/step - accuracy: 0.9481 - loss: 0.1447 - val_accuracy: 0.9038 - val_loss: 0.2860
+#
+# CNN Test Accuracy: 0.9045

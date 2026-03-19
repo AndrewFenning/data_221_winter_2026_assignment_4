@@ -32,3 +32,12 @@ for i in range(len(unique)):
 #    to identify the minority class. In medical contexts like this, predicting a
 #    malignant tumor as benign (false negative) is highly dangerous, so we need a
 #    model that learns both classes fairly.
+
+# Output:
+# --- Q1: Dataset Exploration ---
+# Shape of feature matrix X: (569, 30)
+# Shape of target vector y: (569,)
+#
+# Class distribution:
+# Class 0 (malignant): 212 samples
+# Class 1 (benign): 357 samples

@@ -70,3 +70,14 @@ print(cm_nn)
 #    - Limitation: Acts as a "black box." It is very difficult to interpret exactly
 #      how the model combines the 30 features to arrive at its final prediction.
 #      It also strictly requires feature scaling to train effectively.
+
+# Output:
+# --- Q5: Model Evaluation and Comparison ---
+#
+# Confusion Matrix - Constrained Decision Tree:
+# [[38  4]
+#  [ 2 70]]
+#
+# Confusion Matrix - Neural Network:
+# [[41  1]
+#  [ 3 69]]

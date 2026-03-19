@@ -58,3 +58,8 @@ print(f"Neural Network Test Accuracy: {test_acc:.4f}\n")
 #    the backward propagation to update weights). Because the model learns iteratively,
 #    it typically takes many epochs (multiple full passes over the data) to adjust
 #    the weights sufficiently and minimize the error.
+
+# Output:
+# --- Q4: Neural Network for Binary Classification ---
+# Neural Network Training Accuracy: 0.9912
+# Neural Network Test Accuracy: 0.9649
